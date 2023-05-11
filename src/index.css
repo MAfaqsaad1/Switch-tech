@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+aside li {
+  padding: 6px 2px 6px 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+aside li:hover {
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  box-shadow: 1px 1px 2px black;
+}
